@@ -7,6 +7,11 @@ let menu = document.querySelector(".menu");
 menu.onclick = () => {
   sidebar.classList.toggle("hidden");
 };
+//smooth scroll
+const scroll = new LocomotiveScroll({
+  el: document.querySelector(".item-container"),
+  smooth: true,
+});
 
 //scrolling Image
 const initialTranslateLTR = -48 * 4;
