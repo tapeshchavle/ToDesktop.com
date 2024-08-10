@@ -9,7 +9,7 @@ menu.onclick = () => {
 };
 //smooth scroll
 const scroll = new LocomotiveScroll({
-  el: document.querySelector(".item-container"),
+  el: document.querySelector(".item-container"), //item-container parent div class
   smooth: true,
 });
 
