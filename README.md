@@ -1,2 +1,2 @@
 # Check out this website
-<a href="https://todesktopapp.netlify.app">Todeskto</a>
+<a href="https://todesktopapp.netlify.app">Todesktop</a>
